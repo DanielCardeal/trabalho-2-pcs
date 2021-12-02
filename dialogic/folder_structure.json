@@ -5,7 +5,8 @@
 	"folders": {
 		"Characters": {
 			"files": [
-
+				"character-1638458277.json",
+				"character-1638459625.json"
 			],
 			"folders": {
 
@@ -44,7 +45,18 @@
 
 			],
 			"folders": {
+				"Introdução": {
+					"files": [
+						"timeline-1638458256.json"
+					],
+					"folders": {
 
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
 			},
 			"metadata": {
 				"color": null,

@@ -1,0 +1,61 @@
+{
+	"events": [
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tau\n[speed=10] .....\n[speed=1] Tau, [b]acorde[/b]!\n[speed=20] ...\n"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=1][shake level=10][b]TAAAAAU!!!!![/b][/shake]"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ei, ei...... \nEu já estou acordando, não precisa gritar. \nToda vez que você vem é isso, chega gritando como se o mundo fosse acabar."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas o mundo [b]vai[/b] acabar se você demorar mais um pouco. Vamos, tenho uma missão nova pra você."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Qual o apocalipse de agora? Os macacos crescidos voltaram a jogar bombas uns nos outros? Ou é o clima deles que decidiu derreter mais umas geleiras e anundou a coisa toda?\n"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não, não. A coisa dessa vez é bem mais complicada. Lembra o povo (nome da espécie dos anões drag)?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Os pequenininhos e coloridos? Lembro sim!"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(continua e blá blá blá)"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1638458256.json",
+		"name": "convocacao"
+	}
+}

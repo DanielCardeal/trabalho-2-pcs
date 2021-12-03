@@ -4,13 +4,13 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tau\n[speed=10] .....\n[speed=1] Tau, [b]acorde[/b]!\n[speed=20] ...\n"
+			"text": "Tau\n[speed=10] .....\n[speed=2] Tau, [b]acorde[/b]!\n[speed=20] ...\n"
 		},
 		{
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[speed=1][shake level=10][b]TAAAAAU!!!!![/b][/shake]"
+			"text": "[shake level=10][b]TAAAAAU!!!!![/b][/shake]"
 		},
 		{
 			"character": "character-1638458277.json",
@@ -34,7 +34,7 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não, não. A coisa dessa vez é bem mais complicada. Lembra o povo (nome da espécie dos anões drag)?"
+			"text": "Não, não. A coisa dessa vez é bem mais complicada. Lembra o povo (nome da espécie dos duendes drag)?"
 		},
 		{
 			"character": "character-1638458277.json",
@@ -46,11 +46,11 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "(continua e blá blá blá)"
+			"text": "Qual é o meu nome?"
 		},
 		{
-			"event_id": "dialogic_022",
-			"transition_duration": 1
+			"change_scene": "res://Puzzle.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

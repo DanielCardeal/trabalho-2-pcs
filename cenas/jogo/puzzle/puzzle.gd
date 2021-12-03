@@ -10,6 +10,7 @@ onready var _label_pergunta := $PerguntaResposta/Pergunta
 onready var _label_resposta := $PerguntaResposta/Resposta
 onready var _vbox_botoes := $PerguntaResposta/Botoes
 onready var _hbox_tentativas := $Tentativas
+onready var _botao_confirma := $PerguntaResposta/HBoxContainer/Confirmar
 
 var _tentativa_cena := load("res://cenas/jogo/puzzle/Tentativa.tscn")
 var _tentativa : String = ""
@@ -28,10 +29,13 @@ func cria_botoes():
 
 # Adiciona *letra* à resposta
 func _on_adiciona_letra(letra):
+	if (len(_tentativa) + 1) == len(_solucao):
+		_botao_confirma.disabled = false
+		var botoes = _vbox_botoes.get_children()
+		for i in range(len(_letras)):
+			botoes[i].disabled = true
 	_tentativa += letra
 	_label_resposta.text = _tentativa
-	if len(_tentativa) >= len(_solucao):
-		testa_solucao()
 
 func testa_solucao():
 	var resultado = conta_preto_branco()
@@ -64,6 +68,7 @@ func conta_preto_branco():
 func reseta_tentativa():
 	_tentativa = ""
 	_label_resposta.text = _tentativa
+	_botao_confirma.disabled = true
 	for botao in _vbox_botoes.get_children():
 		botao.disabled = false
 
@@ -72,3 +77,9 @@ func adiciona_tentativa(resultado):
 	var instancia_tentativa = _tentativa_cena.instance()
 	_hbox_tentativas.add_child(instancia_tentativa)
 	instancia_tentativa.set_resultado(_tentativa, resultado)
+
+func _on_Refazer_pressed():
+	reseta_tentativa()
+
+func _on_Confirmar_pressed():
+	testa_solucao()

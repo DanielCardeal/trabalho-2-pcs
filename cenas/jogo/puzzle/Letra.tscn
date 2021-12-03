@@ -3,8 +3,14 @@
 [ext_resource path="res://cenas/jogo/puzzle/Letra.gd" type="Script" id=1]
 
 [node name="Letra" type="Button"]
-margin_right = 12.0
-margin_bottom = 20.0
+anchor_left = 0.01
+anchor_top = 0.017
+anchor_right = 0.01
+anchor_bottom = 0.017
+margin_left = -10.24
+margin_top = -10.2
+margin_right = 9.76
+margin_bottom = 9.8
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false

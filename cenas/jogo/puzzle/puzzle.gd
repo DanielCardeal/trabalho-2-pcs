@@ -6,9 +6,9 @@ export var _pergunta : String
 export var _solucao : String
 export var _letras : String
 
-onready var _label_pergunta := $VBoxContainer/Pergunta
-onready var _label_resposta := $VBoxContainer/Resposta
-onready var _vbox_botoes := $VBoxContainer/Botoes
+onready var _label_pergunta := $PerguntaResposta/Pergunta
+onready var _label_resposta := $PerguntaResposta/Resposta
+onready var _vbox_botoes := $PerguntaResposta/Botoes
 onready var _hbox_tentativas := $Tentativas
 
 var _tentativa_cena := load("res://cenas/jogo/puzzle/Tentativa.tscn")

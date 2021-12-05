@@ -49,7 +49,7 @@
 			"text": "Qual é o meu nome?"
 		},
 		{
-			"change_scene": "res://Puzzle.tscn",
+			"change_scene": "res://cenas/jogo/puzzle/Puzzle.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

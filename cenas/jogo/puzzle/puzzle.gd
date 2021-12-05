@@ -1,6 +1,9 @@
 extends HBoxContainer
 
-signal fim_jogo
+# Sinal que indica o fim do jogo. O status indica se o jogador ganhou ou perdeu.
+signal fim_jogo(status)
+
+enum STATUS {GANHOU, PERDEU}
 
 export var _pergunta : String
 export var _solucao : String
@@ -12,20 +15,22 @@ onready var _vbox_botoes := $PerguntaResposta/Botoes
 onready var _hbox_tentativas := $Tentativas
 onready var _botao_confirma := $PerguntaResposta/HBoxContainer/Confirmar
 
+var _cena_letra := load("res://cenas/jogo/puzzle/Letra.tscn")
 var _tentativa_cena := load("res://cenas/jogo/puzzle/Tentativa.tscn")
 var _tentativa : String = ""
+var _num_tentativas := 0
 
 func _ready():
 	cria_botoes()
 	_label_pergunta.text = _pergunta
 
 func cria_botoes():
-	var botoes = _vbox_botoes.get_children()
 	for i in range(len(_letras)):
-		var botao = botoes[i]
+		var botao = _cena_letra.instance()
 		var letra = _letras[i]
 		botao.set_letra(letra)
 		botao.connect('adiciona_letra', self, '_on_adiciona_letra')
+		_vbox_botoes.add_child(botao)
 
 # Adiciona *letra* à resposta
 func _on_adiciona_letra(letra):
@@ -39,8 +44,10 @@ func _on_adiciona_letra(letra):
 
 func testa_solucao():
 	var resultado = conta_preto_branco()
-	if resultado["branco"] == 4:
-		pass
+	if resultado["branco"] == len(_solucao):
+		emit_signal('fim_jogo', STATUS.GANHOU)
+	elif _num_tentativas >= 10:
+		emit_signal('fim_jogo', STATUS.PERDEU)
 	else:
 		adiciona_tentativa(resultado)
 		reseta_tentativa()
@@ -77,6 +84,9 @@ func adiciona_tentativa(resultado):
 	var instancia_tentativa = _tentativa_cena.instance()
 	_hbox_tentativas.add_child(instancia_tentativa)
 	instancia_tentativa.set_resultado(_tentativa, resultado)
+	_num_tentativas += 1
+	if _num_tentativas >= 10:
+		emit_signal('fim_jogo', STATUS.PERDEU)
 
 func _on_Refazer_pressed():
 	reseta_tentativa()

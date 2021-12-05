@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://cenas/jogo/puzzle/Seta.tscn" type="PackedScene" id=1]
+[ext_resource path="res://cenas/jogo/puzzle/Puzzle.tscn" type="PackedScene" id=2]
+[ext_resource path="res://fontes/Arrows.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://cenas/jogo/puzzle/TentativaSeta.tscn" type="PackedScene" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+extra_spacing_top = 7
+extra_spacing_char = 10
+font_data = ExtResource( 3 )
+
+[node name="Puzzle" instance=ExtResource( 2 )]
+_solucao = "abcd"
+_letras = "abcde"
+_cena_letra = ExtResource( 1 )
+_cena_tentativa = ExtResource( 4 )
+
+[node name="Resposta" parent="PerguntaResposta" index="1"]
+margin_bottom = 311.0
+custom_fonts/font = SubResource( 1 )
+
+[node name="Botoes" parent="PerguntaResposta" index="2"]
+margin_top = 315.0
+margin_bottom = 315.0
+
+[node name="HBoxContainer" parent="PerguntaResposta" index="3"]
+margin_top = 319.0
+margin_bottom = 369.0

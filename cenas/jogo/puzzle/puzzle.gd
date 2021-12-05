@@ -8,6 +8,8 @@ enum STATUS {GANHOU, PERDEU}
 export var _pergunta : String
 export var _solucao : String
 export var _letras : String
+export(PackedScene) var _cena_letra
+export(PackedScene) var _cena_tentativa
 
 onready var _label_pergunta := $PerguntaResposta/Pergunta
 onready var _label_resposta := $PerguntaResposta/Resposta
@@ -15,8 +17,6 @@ onready var _vbox_botoes := $PerguntaResposta/Botoes
 onready var _hbox_tentativas := $Tentativas
 onready var _botao_confirma := $PerguntaResposta/HBoxContainer/Confirmar
 
-var _cena_letra := load("res://cenas/jogo/puzzle/Letra.tscn")
-var _tentativa_cena := load("res://cenas/jogo/puzzle/Tentativa.tscn")
 var _tentativa : String = ""
 var _num_tentativas := 0
 
@@ -81,7 +81,7 @@ func reseta_tentativa():
 
 # Adiciona tentativa ao histórico de jogadas
 func adiciona_tentativa(resultado):
-	var instancia_tentativa = _tentativa_cena.instance()
+	var instancia_tentativa = _cena_tentativa.instance()
 	_hbox_tentativas.add_child(instancia_tentativa)
 	instancia_tentativa.set_resultado(_tentativa, resultado)
 	_num_tentativas += 1

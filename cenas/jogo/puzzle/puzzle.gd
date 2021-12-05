@@ -1,8 +1,5 @@
 extends HBoxContainer
 
-# Sinal que indica o fim do jogo. O status indica se o jogador ganhou ou perdeu.
-signal fim_jogo(status)
-
 enum STATUS {GANHOU, PERDEU}
 
 export var _pergunta : String
@@ -10,6 +7,7 @@ export var _solucao : String
 export var _letras : String
 export(PackedScene) var _cena_letra
 export(PackedScene) var _cena_tentativa
+export(PackedScene) var _prox_cena
 
 onready var _label_pergunta := $PerguntaResposta/Pergunta
 onready var _label_resposta := $PerguntaResposta/Resposta
@@ -45,9 +43,9 @@ func _on_adiciona_letra(letra):
 func testa_solucao():
 	var resultado = conta_preto_branco()
 	if resultado["branco"] == len(_solucao):
-		emit_signal('fim_jogo', STATUS.GANHOU)
+		fim_jogo(STATUS.GANHOU)
 	elif _num_tentativas >= 10:
-		emit_signal('fim_jogo', STATUS.PERDEU)
+		fim_jogo(STATUS.PERDEU)
 	else:
 		adiciona_tentativa(resultado)
 		reseta_tentativa()
@@ -86,7 +84,13 @@ func adiciona_tentativa(resultado):
 	instancia_tentativa.set_resultado(_tentativa, resultado)
 	_num_tentativas += 1
 	if _num_tentativas >= 10:
-		emit_signal('fim_jogo', STATUS.PERDEU)
+		fim_jogo(STATUS.PERDEU)
+
+func fim_jogo(status):
+	if status == STATUS.GANHOU:
+		get_tree().change_scene_to(_prox_cena)
+	else:
+		print("Perdeu :(")
 
 func _on_Refazer_pressed():
 	reseta_tentativa()

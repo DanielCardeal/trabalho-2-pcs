@@ -9,11 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Node",
-"class": "Config",
-"language": "GDScript",
-"path": "res://cenas/jogo/puzzle/Config.gd"
-}, {
 "base": "Reference",
 "class": "DTS",
 "language": "GDScript",
@@ -45,7 +40,6 @@ _global_script_classes=[ {
 "path": "res://addons/dialogic/Other/DialogicUtil.gd"
 } ]
 _global_script_class_icons={
-"Config": "",
 "DTS": "",
 "Dialogic": "",
 "DialogicBackgroundMusic": "",

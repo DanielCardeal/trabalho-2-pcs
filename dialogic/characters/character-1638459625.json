@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://sprites/PCS3549/PCS3549.png"
+			"path": "res://imagens/sprites/PCS3549/PCS3549.png"
 		}
 	],
 	"scale": 70

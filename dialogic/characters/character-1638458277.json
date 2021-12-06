@@ -9,24 +9,24 @@
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
-	"offset_y": -70,
+	"offset_y": -80,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://sprites/Tau/Tau_default.png"
-		},
-		{
-			"name": "Sleeping",
-			"path": "res://sprites/Tau/Tau_sleeping.png"
+			"path": "res://imagens/sprites/Tau/Tau_default.png"
 		},
 		{
 			"name": "Annoyed",
-			"path": "res://sprites/Tau/Tau_annoyed.png"
+			"path": "res://imagens/sprites/Tau/Tau_annoyed.png"
 		},
 		{
 			"name": "Confused",
-			"path": "res://sprites/Tau/Tau_confused.png"
+			"path": "res://imagens/sprites/Tau/Tau_confused.png"
+		},
+		{
+			"name": "Sleeping",
+			"path": "res://imagens/sprites/Tau/Tau_sleeping.png"
 		}
 	],
-	"scale": 80
+	"scale": 75
 }

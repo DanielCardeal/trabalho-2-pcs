@@ -1,6 +1,24 @@
 {
 	"events": [
 		{
+			"background": "res://imagens/backgrounds/space.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://som/musica/BoTW.mp3",
+			"volume": -20
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 2
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -225,7 +243,19 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "(Pequena descrição dos Duendes Drag)"
+			"text": "Eles são pequenos seres alegres, cantantes e coloridos.\nPossuem a notável habilidade de modular sons que mentalizam por vibrações..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "AHHH!!!\nVocê está falando dos [b]Duendes Drag[/b]."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pode ser vai...\nJá que estamos de acordo agora."
 		},
 		{
 			"choice": "\"Os famosos Duendes Drag?\"",
@@ -280,7 +310,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Bora!"
 		},
 		{
@@ -318,13 +348,43 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pelo amor de meus transístores...\nPara fazer a conexão você deve usar suas habilidades para extrair a coordenada dimensional do povo alvo."
+			"text": "Pelo amor de meus transístores...\nPara fazer a conexão você deve usar sua \"mágica\" para extrair a coordenada dimensional do povo alvo."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "\"Mágica\"?"
 		},
 		{
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Usar a suas habilidades é (tutorial do jogo senha)"
+			"text": "É!\nQuando você mentaliza a resposta de uma pergunta..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "[speed=20]......"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "e surgem as letras dela fora de ordem e você ordena elas de forma correta..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "A minha habilidade de [b]Senha[/b] você diz!\nEsse jogo é o meu favorito, por isso confeccionei minha habilidade para parecer ele."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Beleza, chega do seu papo furado.\nGostava mais de você roncando.\nVamos trabalhar!!!"
 		},
 		{
 			"event_id": "dialogic_013"

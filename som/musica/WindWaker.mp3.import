@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/WindWaker.mp3-ef9eb2a31dd38a493dbc4e7592818c68.mp3str"
+
+[deps]
+
+source_file="res://som/musica/WindWaker.mp3"
+dest_files=[ "res://.import/WindWaker.mp3-ef9eb2a31dd38a493dbc4e7592818c68.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

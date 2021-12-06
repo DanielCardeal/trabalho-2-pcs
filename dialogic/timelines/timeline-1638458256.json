@@ -42,7 +42,7 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[shake level=10][b]TAAAAAU!!!!![/b][/shake]"
+			"text": "[shake level=10][b][color=#9210c7]TAAAAAU[/color]!!!!![/b][/shake]"
 		},
 		{
 			"event_id": "dialogic_023",
@@ -55,8 +55,8 @@
 			"mirror": false,
 			"portrait": "",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
@@ -78,7 +78,7 @@
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Toda vez que eu começo a cochilar e [b]finalmente[/b] consigo sonhar com meus deliciosos [i]Cookies Espaciais[/i], você chega gritando como se o mundo fosse acabar."
+			"text": "Toda vez que eu começo a cochilar e [b]finalmente[/b] consigo sonhar com meus deliciosos [wave amp=50 freq=2]Cookies Espaciais[/wave], você chega gritando como se o mundo fosse acabar."
 		},
 		{
 			"character": "character-1638459625.json",

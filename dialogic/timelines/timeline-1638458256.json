@@ -1,10 +1,42 @@
 {
 	"events": [
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Em uma galáxia familiar..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 1
+		},
+		{
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tau\n[speed=10] .....\n[speed=2] Tau, [b]acorde[/b]!\n[speed=20] ...\n"
+			"text": "Tau..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=20]......"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=2]Tau, [b]acorde[/b]!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=20]......"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 1
 		},
 		{
 			"character": "character-1638459625.json",
@@ -13,40 +45,241 @@
 			"text": "[shake level=10][b]TAAAAAU!!!!![/b][/shake]"
 		},
 		{
-			"character": "character-1638458277.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Ei, ei...... \nEu já estou acordando, não precisa gritar. \nToda vez que você vem é isso, chega gritando como se o mundo fosse acabar."
-		},
-		{
-			"character": "character-1638459625.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Mas o mundo [b]vai[/b] acabar se você demorar mais um pouco. Vamos, tenho uma missão nova pra você."
+			"event_id": "dialogic_023",
+			"wait_seconds": 1
 		},
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Qual o apocalipse de agora? Os macacos crescidos voltaram a jogar bombas uns nos outros? Ou é o clima deles que decidiu derreter mais umas geleiras e anundou a coisa toda?\n"
+			"text": "[speed=30]Hmmmm......\nCalma, calma...\nJá tô acordando, não precisa gritar. \nToda vez que eu começo a cochilar e [b]finalmente[/b] consigo sonhar com meus deliciosos [i]Cookies Espaciais[/i], você chega gritando como se o mundo fosse acabar."
 		},
 		{
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não, não. A coisa dessa vez é bem mais complicada. Lembra o povo (nome da espécie dos duendes drag)?"
+			"text": "Mas o mundo [b]vai[/b] acabar.\nNa verdade, um mundo vai...\nMas chega de enrolação. Se você demorar mais um pouco este mundo [b]definitivamente[/b] vai se perder.\nVamos, temos trabalho a fazer."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Como você deseja proceder?"
+		},
+		{
+			"choice": "Acatar ao desejo de PCS3549.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Reclamar de PCS3549.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
 		},
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Os pequenininhos e coloridos? Lembro sim!"
+			"text": "(Que robô mais mandão...)"
 		},
 		{
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Qual é o meu nome?"
+			"text": "Você sabe que eu capto qualquer tipo de som emitido nesta nave, e portanto ouço qualquer cochicho seu, né?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Ainda por cima é metido...)\n(Porquê eu fui desenvolver uma IA tão avançada [b]e[/b] com personalidade auto ajustável?)"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Para eu te ajudar na [b]Missão[/b], ué!\nEu não pedi para existir.\nMas já que decidiu dar um propósito para meus circuitos lógicos...\n[speed=15][shake level=10][b]É SÓ NISSO QUE EU CONSIGO PENSAR!!!!![/b][/shake]"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se te faz sentir melhor, minha existência, que é [b]INFINITA[/b], é totalmente focada na [b]Missão[/b]!"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas você pode dormir!\nE ainda tem mais...\n[shake level=10][b]VOCÊ NÃO PRECISA FICAR VENDO VOCÊ DORMIR ANOS E ANOS LUZES CADA VEZ QUE TERMINAMOS UM TRABALHO!!!!![/b]"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, ok! Entendo seu ponto."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você tem razão, vamos ao trabalho.\nQual o apocalipse de agora?\nMeu medidor fásico indica que estamos próximos de [i]Kappa Alan[/i].\nOs primatas crescidos voltaram a jogar bombas uns nos outros? Ou é o clima deles que decidiu derreter mais umas geleiras e inundou a coisa toda?\nSorte a deles que eu [b]NUNCA[/b] desisto de um planeta..."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não, não.\nTem a ver com os primatas.\nSó que a coisa dessa vez é [b]bem[/b] mais complicada."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Lembra o povo [i]Swann-Leprechaun[/i]?"
+		},
+		{
+			"choice": "\"Sim, com certeza.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sim, com certeza."
+		},
+		{
+			"choice": "\"Não, poderia me recapitular?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não, poderia me recapitular?"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Pequena descrição dos Duendes Drag)"
+		},
+		{
+			"choice": "\"Os famosos Duendes Drag?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Os famosos [b]Duendes Drag[/b]?\nOs pequenininhos e coloridos? Lembro sim!\nAdoro as músicas que eles conseguem emitir usando apenas a mente."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não sei...\nFazem três quinhênios que eu parei de adicionar dados ao seu projeto  \"revolucionário\", [i]Os Apelidos do Universo[/i]..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Primeiro, o nome do projeto é [i]Os Melhores Apelidos do Universo[/i]!\nSegundo, ele é [b]SIM[/b] revolucionário!\n[b]ENFIM![/b]\nQuem está enrolando agora é você!"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certo, pelo menos estamos na mesma página agora."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Então faça sua conexão com o povo [i]Swann-Leprechaun[/i]."
+		},
+		{
+			"choice": "\"Bora!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bora!"
+		},
+		{
+			"choice": "\"Conexão?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Conexão? Do que você está falando?"
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah não. De novo você dormiu tanto que não lembra da sua habilidade [b]única[/b] de se conectar com qualquer ser do universo?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=15]Hmmm......\nConfesso que estou com a memória um pouco turva."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pelo amor de meus transístores...\nPara fazer a conexão você deve usar suas habilidades para extrair a coordenada dimensional do povo alvo."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Usar a suas habilidades é (tutorial do jogo senha)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 1
 		},
 		{
 			"change_scene": "res://cenas/jogo/puzzle/Puzzle1.tscn",

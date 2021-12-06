@@ -49,10 +49,36 @@
 			"wait_seconds": 1
 		},
 		{
+			"action": "join",
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[speed=30]Hmmmm......\nCalma, calma...\nJá tô acordando, não precisa gritar. \nToda vez que eu começo a cochilar e [b]finalmente[/b] consigo sonhar com meus deliciosos [i]Cookies Espaciais[/i], você chega gritando como se o mundo fosse acabar."
+			"portrait": "Sleeping",
+			"text": "[speed=30]Hmmmm......"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Calma, calma...\nJá tô acordando, não precisa gritar. "
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Toda vez que eu começo a cochilar e [b]finalmente[/b] consigo sonhar com meus deliciosos [i]Cookies Espaciais[/i], você chega gritando como se o mundo fosse acabar."
 		},
 		{
 			"character": "character-1638459625.json",
@@ -86,7 +112,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Annoyed",
 			"text": "(Que robô mais mandão...)"
 		},
 		{
@@ -110,7 +136,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Se te faz sentir melhor, minha existência, que é [b]INFINITA[/b], é totalmente focada na [b]Missão[/b]!"
 		},
 		{
@@ -132,7 +158,13 @@
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você tem razão, vamos ao trabalho.\nQual o apocalipse de agora?\nMeu medidor fásico indica que estamos próximos de [i]Kappa Alan[/i].\nOs primatas crescidos voltaram a jogar bombas uns nos outros? Ou é o clima deles que decidiu derreter mais umas geleiras e inundou a coisa toda?\nSorte a deles que eu [b]NUNCA[/b] desisto de um planeta..."
+			"text": "Você tem razão, vamos ao trabalho.\nQual o apocalipse de agora?\nMeu medidor fásico indica que estamos próximos de [i]Kappa Alan[/i].\nOs primatas crescidos voltaram a jogar bombas uns nos outros? Ou é o clima deles que decidiu derreter mais umas geleiras e inundou a coisa toda?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Sorte a deles que eu [b]NUNCA[/b] desisto de um planeta..."
 		},
 		{
 			"character": "character-1638459625.json",
@@ -159,7 +191,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Sim, com certeza."
 		},
 		{
@@ -172,7 +204,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Confused",
 			"text": "Não, poderia me recapitular?"
 		},
 		{
@@ -191,7 +223,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Os famosos [b]Duendes Drag[/b]?\nOs pequenininhos e coloridos? Lembro sim!\nAdoro as músicas que eles conseguem emitir usando apenas a mente."
 		},
 		{
@@ -247,7 +279,7 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Confused",
 			"text": "Conexão? Do que você está falando?"
 		},
 		{
@@ -259,8 +291,14 @@
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[speed=15]Hmmm......\nConfesso que estou com a memória um pouco turva."
+			"portrait": "Default",
+			"text": "[speed=15]Hmmm......"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Confesso que estou com a memória um pouco turva."
 		},
 		{
 			"character": "character-1638459625.json",

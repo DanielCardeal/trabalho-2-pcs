@@ -51,6 +51,10 @@ _global_script_class_icons={
 [application]
 
 config/name="Trabalho 2 - PCS"
+[display]
+
+window/size/resizable=false
+window/size/fullscreen=true
 
 [editor_plugins]
 

@@ -1,11 +1,6 @@
 {
 	"events": [
 		{
-			"background": "res://imagens/backgrounds/space.png",
-			"event_id": "dialogic_021",
-			"fade_duration": 0
-		},
-		{
 			"event_id": "dialogic_023",
 			"wait_seconds": 2
 		},
@@ -412,8 +407,8 @@
 			"text": "[speed=30][shake level=50][b] ...............[/b][/shake]"
 		},
 		{
-			"event_id": "dialogic_023",
-			"wait_seconds": 3
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

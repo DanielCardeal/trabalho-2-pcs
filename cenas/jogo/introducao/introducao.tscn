@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://cenas/jogo/introducao/introducao.gd" type="Script" id=1]
 [ext_resource path="res://som/musica/BoTW.mp3" type="AudioStream" id=2]
+[ext_resource path="res://imagens/backgrounds/space.png" type="Texture" id=3]
 
 [node name="Introducao" type="Node"]
 script = ExtResource( 1 )
@@ -10,3 +11,12 @@ script = ExtResource( 1 )
 stream = ExtResource( 2 )
 volume_db = -10.0
 autoplay = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

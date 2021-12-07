@@ -6,15 +6,6 @@
 			"fade_duration": 0
 		},
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "res://som/musica/BoTW.mp3",
-			"volume": -20
-		},
-		{
 			"event_id": "dialogic_023",
 			"wait_seconds": 2
 		},
@@ -423,10 +414,6 @@
 		{
 			"event_id": "dialogic_023",
 			"wait_seconds": 3
-		},
-		{
-			"change_scene": "res://cenas/jogo/puzzle/Puzzle1.tscn",
-			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

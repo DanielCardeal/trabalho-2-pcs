@@ -1,13 +1,12 @@
 extends HBoxContainer
 
-enum STATUS {GANHOU, PERDEU}
+signal fim_jogo
 
 export var _pergunta : String
 export var _solucao : String
 export var _letras : String
 export(PackedScene) var _cena_letra
 export(PackedScene) var _cena_tentativa
-export(PackedScene) var _prox_cena
 
 onready var _label_pergunta := $PerguntaResposta/Pergunta
 onready var _label_resposta := $PerguntaResposta/Resposta
@@ -43,9 +42,9 @@ func _on_adiciona_letra(letra):
 func testa_solucao():
 	var resultado = conta_preto_branco()
 	if resultado["branco"] == len(_solucao):
-		fim_jogo(STATUS.GANHOU)
+		_fim_jogo()
 	elif _num_tentativas >= 10:
-		fim_jogo(STATUS.PERDEU)
+		_fim_jogo()
 	else:
 		adiciona_tentativa(resultado)
 		reseta_tentativa()
@@ -84,13 +83,11 @@ func adiciona_tentativa(resultado):
 	instancia_tentativa.set_resultado(_tentativa, resultado)
 	_num_tentativas += 1
 	if _num_tentativas >= 10:
-		fim_jogo(STATUS.PERDEU)
+		_fim_jogo()
 
-func fim_jogo(status):
-	if status == STATUS.GANHOU:
-		get_tree().change_scene_to(_prox_cena)
-	else:
-		print("Perdeu :(")
+func _fim_jogo():
+	emit_signal("fim_jogo")
+	queue_free()
 
 func _on_Refazer_pressed():
 	reseta_tentativa()

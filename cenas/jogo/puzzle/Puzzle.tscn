@@ -1,33 +1,9 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://cenas/jogo/puzzle/puzzle.gd" type="Script" id=1]
+[ext_resource path="res://tema_padrao.tres" type="Theme" id=2]
 [ext_resource path="res://cenas/jogo/puzzle/VBoxSep.gd" type="Script" id=3]
-[ext_resource path="res://fontes/amatic/Amatic-Bold.ttf" type="DynamicFontData" id=4]
 [ext_resource path="res://cenas/jogo/puzzle/HBoxSep.gd" type="Script" id=5]
-
-[sub_resource type="DynamicFont" id=1]
-size = 50
-outline_size = 2
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 4 )
-
-[sub_resource type="DynamicFont" id=2]
-size = 50
-outline_size = 2
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 4 )
-
-[sub_resource type="DynamicFont" id=4]
-size = 40
-outline_size = 2
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 4 )
-
-[sub_resource type="DynamicFont" id=5]
-size = 40
-outline_size = 2
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 4 )
 
 [node name="Puzzle" type="HBoxContainer"]
 anchor_right = 1.0
@@ -36,9 +12,11 @@ margin_left = 10.0
 margin_top = 10.0
 margin_right = -10.0
 margin_bottom = -10.0
+theme = ExtResource( 2 )
 script = ExtResource( 1 )
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": false,
+"_edit_vertical_guides_": [  ]
 }
 _pergunta = "Qual o meu nome"
 _solucao = "163"
@@ -52,10 +30,9 @@ alignment = 1
 script = ExtResource( 3 )
 
 [node name="Label" type="Label" parent="Tentativas"]
-margin_top = 263.0
+margin_top = 279.0
 margin_right = 500.0
-margin_bottom = 317.0
-custom_fonts/font = SubResource( 1 )
+margin_bottom = 301.0
 text = "Tentativas"
 align = 1
 
@@ -68,10 +45,9 @@ alignment = 1
 script = ExtResource( 3 )
 
 [node name="Pergunta" type="Label" parent="PerguntaResposta"]
-margin_top = 210.0
+margin_top = 248.0
 margin_right = 500.0
-margin_bottom = 264.0
-custom_fonts/font = SubResource( 2 )
+margin_bottom = 270.0
 text = "Pergunta"
 align = 1
 valign = 1
@@ -80,16 +56,15 @@ __meta__ = {
 }
 
 [node name="Resposta" type="Label" parent="PerguntaResposta"]
-margin_top = 268.0
+margin_top = 274.0
 margin_right = 500.0
-margin_bottom = 312.0
-custom_fonts/font = SubResource( 4 )
+margin_bottom = 296.0
 align = 1
 
 [node name="Botoes" type="HBoxContainer" parent="PerguntaResposta"]
-margin_top = 316.0
+margin_top = 300.0
 margin_right = 500.0
-margin_bottom = 316.0
+margin_bottom = 300.0
 alignment = 1
 script = ExtResource( 5 )
 __meta__ = {
@@ -97,24 +72,22 @@ __meta__ = {
 }
 
 [node name="HBoxContainer" type="HBoxContainer" parent="PerguntaResposta"]
-margin_top = 320.0
+margin_top = 304.0
 margin_right = 500.0
-margin_bottom = 370.0
+margin_bottom = 332.0
 alignment = 1
 script = ExtResource( 5 )
 
 [node name="Refazer" type="Button" parent="PerguntaResposta/HBoxContainer"]
-margin_left = 144.0
+margin_left = 60.0
 margin_right = 226.0
-margin_bottom = 50.0
-custom_fonts/font = SubResource( 5 )
+margin_bottom = 28.0
 text = "Refazer"
 
 [node name="Confirmar" type="Button" parent="PerguntaResposta/HBoxContainer"]
 margin_left = 230.0
-margin_right = 355.0
-margin_bottom = 50.0
-custom_fonts/font = SubResource( 5 )
+margin_right = 440.0
+margin_bottom = 28.0
 disabled = true
 text = "Confirmar"
 

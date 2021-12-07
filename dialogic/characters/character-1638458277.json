@@ -26,6 +26,10 @@
 		{
 			"name": "Sleeping",
 			"path": "res://imagens/sprites/Tau/Tau_sleeping.png"
+		},
+		{
+			"name": "Focusing",
+			"path": "res://imagens/sprites/Tau/Tau_focusing.png"
 		}
 	],
 	"scale": 75

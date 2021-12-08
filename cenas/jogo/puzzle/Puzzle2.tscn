@@ -4,5 +4,6 @@
 
 [node name="Puzzle" instance=ExtResource( 1 )]
 rect_scale = Vector2( 1.00188, 1.0123 )
+_pergunta = "Qual é meu nome?"
 _solucao = "LIRA"
 _letras = "AOLWRI"

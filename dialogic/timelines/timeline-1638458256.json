@@ -149,7 +149,7 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Para eu te ajudar na missão, ué!\nEu não pedi para existir.\nMas já que decidiu dar um propósito para meus circuitos lógicos...\n[speed=15][shake level=10]É SÓ NISSO QUE EU CONSIGO PENSAR!!!!![/shake]"
+			"text": "Para eu te ajudar na Missão, ué!\nEu não pedi para existir.\nMas já que decidiu dar um propósito para meus circuitos lógicos...\n[speed=15][shake level=10]É SÓ NISSO QUE EU CONSIGO PENSAR!!!!![/shake]"
 		},
 		{
 			"character": "character-1638458277.json",
@@ -398,7 +398,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://som/sfx/focusing.wav",
-			"volume": 0
+			"volume": 5
 		},
 		{
 			"character": "character-1638458277.json",

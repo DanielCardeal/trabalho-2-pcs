@@ -9,6 +9,7 @@ var _puzzles := [
 var _timelines := [
 	'convocacao',
 	'conversa_duende',
+	'conversa_final',
 	]
 
 func _ready():

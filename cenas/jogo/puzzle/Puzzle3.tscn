@@ -15,19 +15,25 @@ extra_spacing_char = 10
 font_data = ExtResource( 3 )
 
 [node name="Puzzle" instance=ExtResource( 2 )]
-_solucao = "abcd"
-_letras = "abcde"
+_pergunta = "Qual o caminho?"
+_solucao = "ebcda"
+_letras = "abcdefgh"
 _cena_letra = ExtResource( 1 )
 _cena_tentativa = ExtResource( 4 )
 
+[node name="Pergunta" parent="PerguntaResposta" index="0"]
+margin_top = 237.0
+margin_bottom = 259.0
+
 [node name="Resposta" parent="PerguntaResposta" index="1"]
-margin_bottom = 311.0
+margin_top = 263.0
+margin_bottom = 306.0
 custom_fonts/font = SubResource( 1 )
 
 [node name="Botoes" parent="PerguntaResposta" index="2"]
-margin_top = 315.0
-margin_bottom = 315.0
+margin_top = 310.0
+margin_bottom = 310.0
 
 [node name="HBoxContainer" parent="PerguntaResposta" index="3"]
-margin_top = 319.0
-margin_bottom = 369.0
+margin_top = 314.0
+margin_bottom = 342.0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/CurbYourEnthusiasmCredits.mp3-e03b2b5b8de6a5c0ce300369922089e8.mp3str"
+
+[deps]
+
+source_file="res://som/musica/CurbYourEnthusiasmCredits.mp3"
+dest_files=[ "res://.import/CurbYourEnthusiasmCredits.mp3-e03b2b5b8de6a5c0ce300369922089e8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

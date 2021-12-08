@@ -1,0 +1,117 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://imagens/backgrounds/space.png" type="Texture" id=1]
+[ext_resource path="res://imagens/sprites/Estrela/star.png" type="Texture" id=2]
+[ext_resource path="res://cenas/jogo/tela_inicial/tela_inicial.gd" type="Script" id=3]
+[ext_resource path="res://tema_padrao.tres" type="Theme" id=4]
+[ext_resource path="res://fontes/press_start.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="Gradient" id=4]
+offsets = PoolRealArray( 0, 0.503472, 0.993056 )
+colors = PoolColorArray( 0, 0, 0, 0, 0.710938, 0.803528, 1, 1, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 4 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+lifetime_randomness = 0.2
+emission_shape = 2
+emission_box_extents = Vector3( 1024, 600, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 0, 0 )
+angular_velocity = 4.0
+angular_velocity_random = 0.5
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 0.2
+scale_random = 0.4
+color_ramp = SubResource( 3 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 250
+outline_size = 10
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 35
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 35
+font_data = ExtResource( 5 )
+
+[node name="Tela Inicial" type="Node"]
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Particles2D" type="Particles2D" parent="."]
+position = Vector2( 1024, 600 )
+amount = 80
+lifetime = 4.0
+preprocess = 4.0
+speed_scale = 1.2
+randomness = 0.2
+process_material = SubResource( 5 )
+texture = ExtResource( 2 )
+
+[node name="Título" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.38
+anchor_right = 0.5
+anchor_bottom = 0.38
+margin_left = -381.0
+margin_top = -150.0
+margin_right = 386.0
+margin_bottom = 146.0
+theme = ExtResource( 4 )
+custom_colors/font_color = Color( 0.564706, 0.0352941, 0.890196, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "ταυ"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Começar" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.742
+anchor_right = 0.5
+anchor_bottom = 0.742
+margin_left = -250.0
+margin_top = -19.2
+margin_right = 252.0
+margin_bottom = 21.8
+theme = ExtResource( 4 )
+custom_fonts/font = SubResource( 7 )
+text = "ΡΓΕΣΣ ΤΟ ΣTAΓT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Créditos" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.864
+anchor_right = 0.5
+anchor_bottom = 0.864
+margin_left = -127.0
+margin_top = -21.4
+margin_right = 130.0
+margin_bottom = 19.6
+custom_fonts/font = SubResource( 8 )
+text = "ΚΓEΔITΣ"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Começar" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Créditos" to="." method="_on_Crditos_pressed"]

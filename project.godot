@@ -51,7 +51,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Trabalho 2 - PCS"
-run/main_scene="res://cenas/jogo/introducao/introducao.tscn"
+run/main_scene="res://cenas/jogo/tela_inicial/tela_inicial.tscn"
 
 [display]
 

@@ -86,16 +86,107 @@
 			"wait_seconds": 1.5
 		},
 		{
-			"character": "",
+			"character": "character-1639007583.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "salve duende "
+			"text": "O QUÊ É ISSO?\nQuem é você?"
 		},
 		{
-			"character": "",
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Olá representante dos Duendes Drag.\nMeu nome é Tau e vim salvar este planeta da destruição que vocês estão prestes a causar.\nSe eu não errei minha conexão, você deve liderar as forças invasoras. Correto?"
+		},
+		{
+			"character": "character-1639007583.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "SAAAAAAALVE"
+			"text": "Hmmm...\nSim, lidero meu povo.\nO QUE é você exatamente?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Nem eu mesmo sei..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Desde que lembro da minha existência sempre só houve a Missão...\nE que ela envolve NÃO deixar que os planetas acabem.\nMas pulamos umas partes. Qual é seu nome?"
+		},
+		{
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não te interessa."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Ok..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Pelo menos pode me dizer o motivo da invasão de vocês e como eu posso convencê-los de abandoná-la.\nPara que eu possa seguir minha existência e você a sua."
+		},
+		{
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sinto muito, mas não confio em você.\nVocê pode muito bem ser um infiltrado dos primatas crescidos querendo descobrir nosso plano."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "(Razão não vai adiantar aqui.)"
+		},
+		{
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu ouvi o que você falou, tá?\nE falta de razão seria confiar num espectro roxo que BROTOU do nada na minha frente e começou a me fazer perguntas."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "É, você tem um ponto...\nVamos mudar a dinâmica.\nQue tal eu responder uma pergunta que eu não tenho como saber a resposta para provar que não estou do lado dos primatas?\nSe eu acertar, você me fala o que vocês estão fazendo aqui.\nSe eu errar, vou embora da mesma forma que cheguei."
+		},
+		{
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=30]......\nIsto não faz muito sentido e parece irresponsável...\nMas beleza, vou entrar nessa sua brincadeira.\nQual o meu nome?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Boa, uma pergunta que EU quero saber a resposta.\nPor favor se afaste que eu preciso me concentrar."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://som/sfx/focusing.wav",
+			"volume": 5
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Focusing",
+			"text": "[speed=30][shake level=50] ...............[/shake]"
 		}
 	],
 	"metadata": {

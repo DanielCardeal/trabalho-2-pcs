@@ -196,7 +196,7 @@
 			"character": "character-1639007455.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom, na minha visão eles precisam ser destruídos.\nAté porque, destruição é a única coisa que eles conhecem.\nMas nosso plano é apenas destruir o satélite central de transmissão que se localiza quase fora de órbita do planeta.\nEntão explodí-lo não acabaria com eles."
+			"text": "Bom, na minha visão eles precisam ser destruídos.\nAté porque, destruição é a única coisa que eles conhecem.\nMas nosso plano é apenas destruir o satélite central de transmissão que se localiza quase fora da órbita do planeta.\nEntão explodí-lo não acabaria com eles."
 		},
 		{
 			"choice": "Questionar a lógica de Atis.",
@@ -245,7 +245,7 @@
 			"character": "character-1639007455.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nosso plano é apenas destruir o satélite central de transmissão que se localiza quase fora de órbita do planeta.\nFique tranquilo que isto não causará o fim deles.\nMesmo eu achando que eles merecem..."
+			"text": "Nosso plano é apenas destruir o satélite central de transmissão que se localiza quase fora da órbita do planeta.\nFique tranquilo que isto não causará o fim deles.\nMesmo eu achando que eles merecem..."
 		},
 		{
 			"event_id": "dialogic_013"

@@ -36,7 +36,7 @@
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Ta aqui Atis, estas são as coordenadas.\nPor favor, não faça destruição desnecessária.\nCertamente eles não buscarão vingança, porque os problemas deles são muitos...\nMas, por favor, tenha cuidado."
+			"text": "Ta aqui Atis, esta é a rota que vocês devem tomar.\nPor favor, não faça destruição desnecessária.\nCertamente eles não buscarão vingança, porque os problemas deles são muitos...\nMas, por favor, tenha cuidado."
 		},
 		{
 			"character": "character-1639007455.json",
@@ -85,7 +85,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "E assim, Tau, salvou mais um planeta do caos e da destruição...\nNo universo, ambos são constantes...\nMas desde que haja Tau vagando pelo cosmos...\nTodos terão pelo menos mais uma chance..."
+			"text": "E assim, Tau salvou mais um planeta do caos e da destruição...\nNo universo, ambos são constantes...\nMas desde que haja Tau vagando pelo cosmos...\nTodos terão pelo menos mais uma chance..."
 		},
 		{
 			"event_id": "dialogic_023",
@@ -95,7 +95,7 @@
 			"character": "character-1639011577.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "MUITO OBRIGADO POR JOGAR!"
+			"text": "MUITO OBRIGADO POR JOGAR!!!"
 		},
 		{
 			"character": "character-1639011577.json",

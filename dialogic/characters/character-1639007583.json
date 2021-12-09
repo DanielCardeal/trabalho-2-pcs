@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://imagens/sprites/atis.png"
 		}
 	],
 	"scale": 100

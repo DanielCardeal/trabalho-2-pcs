@@ -1,11 +1,36 @@
 [
   {
-   "Titulo": "Game Designer",
-   "Nomes": ["Eu", "Odeio", "O"]
+   "Titulo": "Trabalho T2 - PCS3549",
+   "Nomes": ["Prof.: Ricardo Nakamura", "2º Semestre de 2021"]
   },
   {
-    "Titulo": "SFXs",
-    "Nomes": ["Alan", "Mitchell", "Durham"]
+    "Titulo": "Integrantes do Grupo:",
+    "Nomes": ["Andre Pequeno, NºUSP: 8556061",
+              "Be Zilberman, NºUSP: 7585660",
+              "Daniel Cardeal, NºUSP: 10693170",
+              "David Tadokro, NºUSP: 10300507"]
+  },
+  {
+    "Titulo": "Trilha Sonora:",
+    "Nomes": ["'Korok Forest (Night)'",
+              "'Curb Your Enthusiasm End Credits'",
+              "'Final Fantasy VII Victory Fanfare'"]
+  },
+  {
+    "Titulo": "Agradecimentos Especiais:",
+    "Nomes": ["Emilio (Desenvolvedor do Dialogic)",
+              "As famílias e amigos dos integrantes"]
+  },
+  {
+    "Titulo": "",
+    "Nomes": ["Este jogo não tem fins lucrativos.",
+              "Todos assets usados foram criados",
+              "pelos integrantes do grupo ou",
+              "creditados acima."]
+  },
+  {
+    "Titulo": "MUITO OBRIGADO POR JOGAR!!!",
+    "Nomes": []
   },
   {
     "Titulo": "",

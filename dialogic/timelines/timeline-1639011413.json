@@ -1,0 +1,129 @@
+{
+	"events": [
+		{
+			"background": "res://imagens/backgrounds/desert.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ta aqui Atis, estas são as coordenadas.\nPor favor, não faça destruição desnecessária.\nCertamente eles não buscarão vingança, porque os problemas deles são muitos...\nMas, por favor, tenha cuidado."
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Terminou a palestra?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "..."
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Brincadeiras a parte, primeiro, obrigado pela rota.\nSegundo, fique tranquilo que nosso objetivo é apenas viver em paz em nosso planeta."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Fico feliz de saber isso...\nBom, vou voltar para minha nave para sonhar com meus deliciosos [wave amp=50 freq=2]Cookies Espaciais[/wave]!\nCuide-se!"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você é piradinho, mas é legal.\nDesejo sorte para você e sua \"Missão\"."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 3
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "E assim, Tau, salvou mais um planeta do caos e da destruição...\nNo universo, ambos são constantes...\nMas desde que haja Tau vagando pelo cosmos...\nTodos terão pelo menos mais uma chance..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1639011577.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "MUITO OBRIGADO POR JOGAR!"
+		},
+		{
+			"character": "character-1639011577.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Se deseja voltar para a tela inicial, clique no botão acima."
+		},
+		{
+			"choice": "Voltar a tela inicial.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://cenas/jogo/tela_inicial/tela_inicial.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1639011413.json",
+		"name": "final"
+	}
+}

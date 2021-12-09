@@ -114,7 +114,7 @@
 			"question": "Como você deseja proceder?"
 		},
 		{
-			"choice": "Acatar ao desejo de PCS3549.",
+			"choice": "Acatar a PCS3549.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -229,7 +229,7 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eles são pequenos seres alegres, cantantes e coloridos.\nPossuem a notável habilidade de modular sons que mentalizam por vibrações..."
+			"text": "Eles são pequenos seres alegres, cantantes e coloridos.\nPossuem a notável habilidade de emular sons que mentalizam por vibrações..."
 		},
 		{
 			"character": "character-1638458277.json",
@@ -260,13 +260,19 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não sei...\nFazem três quinhênios que eu parei de adicionar dados ao seu projeto  \"revolucionário\", Os Apelidos do Universo..."
+			"text": "Não sei...\nFazem três quinhênios que eu parei de adicionar dados ao seu projeto  \"revolucionário\", 'Os Apelidos do Universo'..."
 		},
 		{
 			"character": "character-1638458277.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Primeiro, o nome do projeto é Os Melhores Apelidos do Universo!\nSegundo, ele é SIM revolucionário!\nENFIM!\nQuem está enrolando agora é você!"
+			"portrait": "Annoyed",
+			"text": "Primeiro, o nome do projeto é 'Os Melhores Apelidos do Universo'!\nSegundo, ele é SIM revolucionário!"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "ENFIM!\nQuem está enrolando agora é você!"
 		},
 		{
 			"character": "character-1638459625.json",
@@ -385,7 +391,7 @@
 			"character": "character-1638459625.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Beleza. Vou deixar você fazer sua mágica."
+			"text": "Beleza. Vou deixar você fazer sua \"mágica\"."
 		},
 		{
 			"action": "leaveall",

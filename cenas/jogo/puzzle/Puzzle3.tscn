@@ -15,7 +15,7 @@ extra_spacing_char = 10
 font_data = ExtResource( 3 )
 
 [node name="Puzzle" instance=ExtResource( 2 )]
-_pergunta = "Qual o caminho?"
+_pergunta = "Qual a rota?"
 _solucao = "ebcda"
 _letras = "abcdefgh"
 _cena_letra = ExtResource( 1 )

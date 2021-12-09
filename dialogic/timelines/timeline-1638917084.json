@@ -1,6 +1,91 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Descobri as coordenadas dimensionais.\nElas são μνα."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Então o que você está esperando?\nFaça logo a conexão."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Ta bom, ta bom...\nQue robô grosso."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Vou e já volto, não vai sentir minha falta hein."
+		},
+		{
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Com isso pode ficar tranquilo..."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1638459625.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://imagens/backgrounds/desert.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1639007583.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 1.5
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",

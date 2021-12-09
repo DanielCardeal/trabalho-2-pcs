@@ -10,6 +10,7 @@ var _timelines := [
 	'convocacao',
 	'conversa_duende',
 	'conversa_final',
+	'final',
 	]
 
 func _ready():

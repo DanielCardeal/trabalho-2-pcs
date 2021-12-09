@@ -4,7 +4,7 @@ var _creditos := []
 var _terminou := false
 var _tela = 0
 var _tempo = 0
-var _tempo_por_tela := 4.5
+var _tempo_por_tela := 5
 
 func _ready():
 	var file = File.new()
@@ -50,11 +50,14 @@ func _devolve_linha(texto):
 	return linha
 
 func _add_botao_retorno():
+	var hbox = HBoxContainer.new()
+	hbox.alignment = BoxContainer.ALIGN_CENTER
+	self.add_child(hbox)
 	var botao = Button.new()
 	botao.text = "τελα ινιχιαλ"
 	botao.rect_size = Vector2(200, 30)
 	botao.connect("pressed", self, "_volta_tela_inicial")
-	self.add_child(botao)
+	hbox.add_child(botao)
 	
 func _volta_tela_inicial():
 	get_tree().change_scene("res://cenas/jogo/tela_inicial/tela_inicial.tscn")

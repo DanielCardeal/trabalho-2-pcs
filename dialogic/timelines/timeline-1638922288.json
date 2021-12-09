@@ -1,10 +1,309 @@
 {
 	"events": [
 		{
-			"character": "",
+			"background": "res://imagens/backgrounds/desert.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "A há!\nEntão seu nome é Atis!"
+		},
+		{
+			"action": "join",
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1639007455.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Yao yao"
+			"text": "???\nComo você adivinhou?\nEssa é sua \"mágica\"?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "(Porquê a galera insiste em chamar minha habilidade de \"mágica\"?)\nEnfim, agora que eu acertei você tem que tocar uma música para mim!"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=20]......\nO combinado não era eu te falar o porquê estamos aqui?"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "[speed=20]......"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Você tem razão."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Como você deseja proceder?"
+		},
+		{
+			"choice": "Focar na Missão.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Insistir na música.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Mas mostra seu poder de emular sons  aí, por favor!\nSó porque eu não sei quando vou encontrar mais alguém do seu povo nos próximos quinhênios."
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você realmente é um piadista...\nNão sei quem te colocou responsável por \"salvar\" os planetas...\nMas tudo bem. Provavelmente não vai sair o que eu quero...\nLá vai."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://som/musica/ffvii_fanfare.mp3",
+			"volume": -10
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=30]#%$*&+{*-"
+		},
+		{
+			"audio": "stop",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "(Essa música não é de outro jogo?)"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oi? Você cochicha muito alto Tau.\nTe falei que não estava funcionando direito."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Não importa.\nAchei maravilhoso esse som Atis."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, vamos focar na Missão então.\nQual o motivo da invasão de vocês?"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=20]Esses primatas......\n[shake level=10]CRIARAM A TECNOLOGIA 7G!!![/shake]"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Como deseja proceder?"
+		},
+		{
+			"choice": "Aceitar e só continuar.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Tendi foi nada..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Mas entender não é meu objetivo.\nÉ salvar."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Me diga, tem alguma forma de eu resolver este problema para vocês?\nDe preferência uma que não envolva a destruição deste planeta."
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bom, na minha visão eles precisam ser destruídos.\nAté porque, destruição é a única coisa que eles conhecem.\nMas nosso plano é apenas destruir o satélite central de transmissão que se localiza quase fora de órbita do planeta.\nEntão explodí-lo não acabaria com eles."
+		},
+		{
+			"choice": "Questionar a lógica de Atis.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "7G? Como assim? Vocês têm algo contra alcance ilimitado e velocidades altas?"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não entendo essa fixação que eles têm por colarem suas caras nessas telas azuis...\nMas o motivo pelo qual invadimos este planetazinho decadente.\nÉ porque esta tecnologia com alcance ilimitado está criando interferência em TODO o universo.\nInclusive na nossa habilidade de emular sons. Algo que até você sabe o valor."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Esses primatas crescidos..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Isto importa muito pra vocês né?\nSeja qual for o caso, esta tecnologia pode realmente atrair mais gente zangada pra este planeta."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "E eu não aguento mais salvar este planeta..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Enfim, como posso ajudar?"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nosso plano é apenas destruir o satélite central de transmissão que se localiza quase fora de órbita do planeta.\nFique tranquilo que isto não causará o fim deles.\nMesmo eu achando que eles merecem..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entendi."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "E como fazemos isso?"
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O problema é que não conhecemos a rota para passarmos pelo escudo de asteróides que eles criaram.\nMas acho que você pode resolver isto com sua \"mágica\"."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "E lá vamos nós..."
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ok, preciso de espaço para me concentrar.\nEsta pergunta irá exigir o máximo de minhas habilidades."
+		},
+		{
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Beleza!"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1639007455.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://som/sfx/focusing.wav",
+			"volume": 5
+		},
+		{
+			"character": "character-1638458277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Focusing",
+			"text": "[speed=30][shake level=50] ...............[/shake]"
 		}
 	],
 	"metadata": {

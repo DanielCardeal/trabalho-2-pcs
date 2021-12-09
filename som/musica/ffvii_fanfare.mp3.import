@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ffvii_fanfare.mp3-5b7eb1791ab0c55baa9fdb5726c65c69.mp3str"
+
+[deps]
+
+source_file="res://som/musica/ffvii_fanfare.mp3"
+dest_files=[ "res://.import/ffvii_fanfare.mp3-5b7eb1791ab0c55baa9fdb5726c65c69.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
